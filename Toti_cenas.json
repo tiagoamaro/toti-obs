@@ -24,7 +24,7 @@
                 "push-to-talk": false,
                 "push-to-talk-delay": 0,
                 "settings": {
-                    "suppress_level": -15
+                    "suppress_level": -30
                 },
                 "sync": 0,
                 "volume": 1.0
