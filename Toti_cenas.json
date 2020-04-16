@@ -4,6 +4,32 @@
         "deinterlace_field_order": 0,
         "deinterlace_mode": 0,
         "enabled": true,
+        "filters": [
+            {
+                "balance": 0.5,
+                "deinterlace_field_order": 0,
+                "deinterlace_mode": 0,
+                "enabled": true,
+                "flags": 0,
+                "hotkeys": {},
+                "id": "noise_suppress_filter",
+                "mixers": 255,
+                "monitoring_type": 0,
+                "muted": false,
+                "name": "Noise Suppression",
+                "prev_ver": 402653190,
+                "private_settings": {},
+                "push-to-mute": false,
+                "push-to-mute-delay": 0,
+                "push-to-talk": false,
+                "push-to-talk-delay": 0,
+                "settings": {
+                    "suppress_level": -15
+                },
+                "sync": 0,
+                "volume": 1.0
+            }
+        ],
         "flags": 0,
         "hotkeys": {
             "libobs.mute": [],
@@ -28,8 +54,8 @@
         "sync": 0,
         "volume": 1.0
     },
-    "current_program_scene": "code-caster",
-    "current_scene": "code-caster",
+    "current_program_scene": "only-caster",
+    "current_scene": "only-caster",
     "current_transition": "Fade",
     "groups": [],
     "modules": {
@@ -342,7 +368,7 @@
                 "owner_name": "Code",
                 "show_empty_names": false,
                 "show_shadow": false,
-                "window": 5672,
+                "window": 5916,
                 "window_name": "import React from \"react\"; • Untitled-1"
             },
             "sync": 0,
